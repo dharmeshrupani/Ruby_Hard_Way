@@ -1,16 +1,19 @@
-my_name = "Dharmesh Rupani"
-my_age = 24
-my_height = 70 #inches
-my_weight = 73 #kgs
-my_eyes = "Dark Brown"
-my_teeth = "White"
-my_hair = "Black"
+name = "Dharmesh Rupani"
+age = 24
+height = 70 #inches
+height_in_cms = height * 2.54
+weight = 73 #kgs
+weight_in_pounds = weight * 2.20462
+eyes = "Dark Brown"
+teeth = "White"
+hair = "Black"
 
-puts "let's talk about #{}"
-puts "He's #{my_height} inches tall."
-puts "He's #{my_weight} kilograms heavy."
+
+puts "let's talk about #{name}"
+puts "He's #{height} inches OR #{height_in_cms} cms tall."
+puts "He's #{weight} kilograms OR #{weight_in_pounds} lbs heavy."
 puts "Actually that's not too heavy."
-puts "He's got #{my_eyes} eyes and #{my_hair} hair."
-puts "His teeth are usually #{my_teeth} depending on the coffee."
+puts "He's got #{eyes} eyes and #{hair} hair."
+puts "His teeth are usually #{teeth} depending on the coffee."
 
-puts "If I add #{my_age}, #{my_height}, and #{my_weight} I get #{my_age + my_height + my_weight}."
+puts "If I add #{age}, #{height}, and #{weight} I get #{age + height + weight}."
